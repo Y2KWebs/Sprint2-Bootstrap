@@ -30,7 +30,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/Y2KWebs/Sprint2-Bootstrap">
-    <img src="./assets/img/logo.png" alt="Logo" width="80" height="80">
+    <img src="./images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">Pineapp</h3>
@@ -180,4 +180,4 @@ Project Link: [https://github.com/Y2KWebs/Sprint2-Bootstrap](https://github.com/
 [license-url]: https://github.com/Y2KWebs/Sprint2-Bootstrap/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/github_username
-[product-screenshot]: ./assets/img/screenshot.png
+[product-screenshot]: ./images/screenshot.png
