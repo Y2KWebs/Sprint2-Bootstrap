@@ -41,11 +41,11 @@
     <a href="https://github.com/Y2KWebs/Sprint2-Bootstrap"></a>
     <br />
     <br />
-    <a href="https://y2kwebs.github.io/sprint2-bootstrap/N1/">Ver Demo N1</a>
+    <a href="https://y2kwebs.github.io/sprint2-bootstrap-itacademy/N1/">Ver Demo N1</a>
     ·
-    <a href="https://y2kwebs.github.io/sprint2-bootstrap/N2/">Ver Demo N2</a>
+    <a href="https://y2kwebs.github.io/sprint2-bootstrap-itacademy/N2/">Ver Demo N2</a>
     ·
-    <a href="https://y2kwebs.github.io/sprint2-bootstrap/N3/">Ver Demo N3</a>
+    <a href="https://y2kwebs.github.io/sprint2-bootstrap-itacademy/N3/">Ver Demo N3</a>
   </p>
 </p>
 
