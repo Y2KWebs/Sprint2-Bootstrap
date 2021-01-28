@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Pineapp</title>
+
+    <!--Descargado
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" /> -->
+    <!-- usamos el css compilado de bootstrap -->
+    <link rel="stylesheet" href="main.css" />
+
+    <link rel="stylesheet" href="assets/css/Simple-Slider.css" />
+
+    <!--Desde CDN   
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    /> -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/css/swiper.min.css"
+    />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-light navbar-expand-md">
+      <div class="container-fluid">
+        <a
+          class="navbar-brand d-flex flex-column flex-sm-row align-items-center"
+          href="#"
+          ><img src="assets/img/logo.png" height="80px" /><span
+            >Pineapp</span
+          ></a
+        >
+        <div class="actions d-flex order-lg-1 order-md-1 pr-2 ml-auto">
+          <button
+            class="btn btn-primary"
+            type="button"
+            data-toggle="modal"
+            data-target="#login"
+          >
+            Login</button
+          ><a
+            class="btn btn-light action-button"
+            role="button"
+            href="#"
+            data-target="#registro"
+            data-toggle="modal"
+            >Registro</a
+          >
+        </div>
+        <div>
+          <button
+            data-toggle="collapse"
+            class="navbar-toggler"
+            data-target="#navcol-1"
+          >
+            <span class="sr-only">Toggle navigation</span
+            ><span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navcol-1">
+          <ul class="nav navbar-nav mr-auto">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" href="#">Agronisumos</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" href="#">Bioinsumos</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" href="#">Plagas</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="simple-slider">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div
+            class="swiper-slide"
+            style="background-image: url(assets/img/1.jpg)"
+          ></div>
+          <div
+            class="swiper-slide"
+            style="background-image: url(assets/img/2.jpg)"
+          ></div>
+          <div
+            class="swiper-slide"
+            style="background-image: url(assets/img/3.jpg)"
+          ></div>
+          <div
+            class="swiper-slide"
+            style="background-image: url(assets/img/4.jpg)"
+          ></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+    </div>
+    <div>
+      <p class="text-primary">text-primary</p>
+      <p class="text-secondary">text-secondary</p>
+      <p class="text-success">text-success</p>
+      <p class="text-danger">text-danger</p>
+      <p class="text-info">text-info</p>
+      <p class="text-light">text-light</p>
+      <p class="text-dark">text-dark</p>
+      <p class="text-muted">text-muted</p>
+      <p class="text-white">text-white</p>
+    </div>
+
+    <div class="modal fade" role="dialog" tabindex="-1" id="registro">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Registro</h4>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label>Nombre</label
+                ><input class="form-control" type="text" /><label>email</label
+                ><input class="form-control" type="text" /><label
+                  >Contraseña</label
+                ><input class="form-control" type="text" /><label
+                  >Repetir Contraseña</label
+                ><input class="form-control" type="text" />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-light" type="button" data-dismiss="modal">
+              Cerrar</button
+            ><button class="btn btn-primary" type="button">Registro</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" role="dialog" tabindex="-1" id="login">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Login</h4>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label>Usuario</label
+                ><input class="form-control" type="text" /><label
+                  >Contraseña</label
+                ><input class="form-control" type="text" />
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-light" type="button" data-dismiss="modal">
+              Cerrar</button
+            ><button class="btn btn-primary" type="button">Entrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.3.1/js/swiper.jquery.min.js"></script>
+    <script src="assets/js/Simple-Slider.js"></script>
+  </body>
+</html>

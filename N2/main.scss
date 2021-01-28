@@ -1,0 +1,16 @@
+$text-primary: #057dfa;
+$text-secondary: #616a71;
+$text-success: #1d9544;
+$text-danger: #da413c;
+$text-info: #0096ae;
+$text-light: #f7f8f9;
+$text-dark: #2e3338;
+$text-muted: #616a71;
+$text-white: #616a71;
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.text-light,
+.text-white {
+  background-color: black;
+}
